@@ -15,6 +15,7 @@
     </v-btn>
     <br><br>
     <h3 class="healine3">Existing Posts</h3>
+    <p>Hi from {{ name }}</p>
     <v-divider></v-divider>
     <PostList
     :posts="loadedPosts"
@@ -27,6 +28,11 @@
 import PostList from '@/components/Posts/PostList'
 
 export default {
+  asyncData () {
+    return {
+      name: process.static ? 'static' : (process.server ? 'server' : 'client')
+    }
+  },
   middleware: ['check-auth', 'auth'],
   components: {
     PostList

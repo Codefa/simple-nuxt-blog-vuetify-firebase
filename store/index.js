@@ -111,9 +111,6 @@ export const actions = {
     } else if (process.client) {
       token = localStorage.getItem('token')
       expirationDate = localStorage.getItem('tokenExpiration')
-    } else {
-      token = null
-      expirationDate = null
     }
     if (new Date().getTime() > +expirationDate || !token) {
       vuexContext.dispatch('logout')

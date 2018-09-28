@@ -19,7 +19,8 @@ module.exports = {
   },
   plugins: ['~/plugins/vuetify.js'],
   modules: [
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxtjs/pwa'
   ],
   axios: {
     baseURL: process.env.BASE_URL || 'https://nuxt-blog-77f0e.firebaseio.com'

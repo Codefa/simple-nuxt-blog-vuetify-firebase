@@ -35,7 +35,7 @@ export default {
   },
   data () {
     return {
-      profileImage: 'https://scontent.fcok1-1.fna.fbcdn.net/v/t1.0-9/19113766_1097897530354278_8129712611027682718_n.jpg?_nc_cat=0&oh=c32dda46cb47c4091f08fc5252c2d00f&oe=5BC847D3'
+      profileImage: 'https://cdn.vuetifyjs.com/images/cards/sunshine.jpg'
     }
   }
 }

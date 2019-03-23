@@ -17,8 +17,8 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "js-cookie": "^2.2.0",
-    "nuxt": "^1.4.2",
-    "vuetify": "^1.3.0"
+    "nuxt": "latest",
+    "vuetify": "latest"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",

@@ -18,7 +18,7 @@
     "express": "^4.16.3",
     "js-cookie": "^2.2.0",
     "nuxt": "^1.4.2",
-    "vuetify": "latest"
+    "vuetify": "^1.5.7"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",

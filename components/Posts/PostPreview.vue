@@ -1,6 +1,6 @@
 <template>
-  <v-flex xs12 sm4>
-    <v-card class="mr-3 mt-3">
+  <v-flex xs12 sm6 md4 lg3>
+    <v-card class="ma-3">
       <v-img
       :src="postImage"
       aspect-ratio="1.7778"
